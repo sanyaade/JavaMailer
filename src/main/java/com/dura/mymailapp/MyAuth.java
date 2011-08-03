@@ -9,8 +9,7 @@ public class MyAuth extends Authenticator {
         this.emailId = emailId;
         this.password = password;
     }
-    
-    @Override
+
     public PasswordAuthentication getPasswordAuthentication() {
         return new PasswordAuthentication(emailId, password);
     }

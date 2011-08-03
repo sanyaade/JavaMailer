@@ -14,7 +14,6 @@ public class JavaMailFrame extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -139,7 +138,6 @@ public class JavaMailFrame extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
-            @Override
             public void run() {
                 new JavaMailFrame().setVisible(true);
             }
