@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dura</groupId>
-    <artifactId>JavaMailTest</artifactId>
-    <version>1.0</version>
+    <artifactId>RapidMailer</artifactId>
+    <version>0.5</version>
     <packaging>jar</packaging>
 
-    <name>JavaMailTest</name>
+    <name>RapidMailerV0.5</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -31,6 +31,16 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>de.javasoft.plaf</groupId>
+            <artifactId>synthetica</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>de.javasoft.plaf.synthetica</groupId>
+            <artifactId>SyntheticaBlackMoonLookAndFeel</artifactId>
+            <version>1.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -42,7 +52,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.dura.mymailapp.JavaMailFrame</mainClass>
+                            <mainClass>com.dura.mymailapp.ui.Interface</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
